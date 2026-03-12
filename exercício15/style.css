@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(23, 2, 43);
+    color: #fff;
+}
+
+#principal { /* Só pode usar um id como seletor no CSS, portanto use o seletor class*/
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+}
+
+h1 {
+    color: crimson;
+}
+
+h2 {
+    color: rgb(163, 34, 111);
+}
+
+.basico {
+    color: aqua;
+}
+
+.intermediario {
+    color: brown;
+}
+
+.avançado {
+    color: chartreuse;
+}

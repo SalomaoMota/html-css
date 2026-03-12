@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos deCaixa</title>
+    <style>
+        h1 {
+            background-color: lightgrey;
+            height: 300px;
+            width: 300px;
+
+            border-width: 3px;
+            border-style: solid;
+            border-color: aqua;
+            /* frorma de simplificar os 3 códigos acima. exemplo abaixo*/
+            border: 10px solid aqua;
+
+            padding-top:10px ; /*cima*/
+            padding-right:10px ; /*direita*/
+            padding-bottom:10px ; /*baixo*/
+            padding-left: 10px;
+            /*Observação se as medidas forem iguais como está acima usamos ex: pedding: 10px; um unica vez, serve também para a margin*/
+
+            /*margin-top: 30px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;*/
+            /* forma de simplificar os 4 códigos acima. exemplo abaixo*/
+            /*margin: 10px 10px 10px 10px;*/
+            /*margin:50px auto;*/
+            /*outline: ; fica na parte externa do border*/
+            margin: 50px auto;
+        }
+
+        a {
+            border-style: solid;
+            border-width: 5px;
+            border-color: rgb(0, 255, 55);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+        <p>Paragráfos são exemplos de box-level, mas os <a href="#">links são exemplos de caldas inline-level</a>. Vamos ver como tudo isso funciona</p>
+</body>
+</html>
